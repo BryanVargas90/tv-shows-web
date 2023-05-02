@@ -17,7 +17,7 @@ export default function Home ( {shows, setShows} ) {
         ? "Loading..."
         : shows.map(
             (show) => (
-                <div key={show.id}className="show-container button-effect"> 
+                <div key={show.id}className="button-effect show-container"> 
                     <img src={show.poster} alt=""/>
                     <h2>{show.title}</h2>
                     <p>Seasons: {show.seasons}</p>
